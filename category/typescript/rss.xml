@@ -7,6 +7,7 @@
         <language>zh-CN</language>
         <pubDate>Tue, 22 Dec 2020 00:00:00 +0800</pubDate>
         <lastBuildDate>Tue, 22 Dec 2020 00:00:00 +0800</lastBuildDate>
+        <category>Hexo</category>
         <item>
             <guid isPermalink="true">http://example.com/2020/12/22/fronted/TypeScript/enum/</guid>
             <title>枚举Enum</title>

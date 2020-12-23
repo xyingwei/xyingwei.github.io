@@ -1,20 +1,15 @@
 <?xml version="1.0"?>
-<rss version="2.0">
-    <channel>
-        <title>徐爸爸是超人 • Posts by &#34;hexoblog&#34; category</title>
-        <link>http://example.com</link>
-        <description></description>
-        <language>zh-CN</language>
-        <pubDate>Wed, 23 Dec 2020 00:00:00 +0800</pubDate>
-        <lastBuildDate>Wed, 23 Dec 2020 00:00:00 +0800</lastBuildDate>
-        <category>Hexo</category>
-        <item>
-            <guid isPermalink="true">http://example.com/2020/12/23/hexo-blog/feedback/</guid>
-            <title>shoka主题 添加评论功能</title>
-            <link>http://example.com/2020/12/23/hexo-blog/feedback/</link>
-            <category>Hexo</category>
-            <pubDate>Wed, 23 Dec 2020 00:00:00 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;shoka主题-添加评论功能&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#shoka主题-添加评论功能&#34;&gt;#&lt;/a&gt; shoka 主题 添加评论功能&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://example.com</id>
+    <title>徐爸爸是超人 • Posts by &#34;hexo&#34; tag</title>
+    <link href="http://example.com" />
+    <updated>2020-12-22T16:00:00.000Z</updated>
+    <category term="Hexo" />
+    <entry>
+        <id>http://example.com/2020/12/23/hexo-blog/feedback/</id>
+        <title>shoka主题 添加评论功能</title>
+        <link rel="alternate" href="http://example.com/2020/12/23/hexo-blog/feedback/"/>
+        <content type="html">&lt;h1 id=&#34;shoka主题-添加评论功能&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#shoka主题-添加评论功能&#34;&gt;#&lt;/a&gt; shoka 主题 添加评论功能&lt;/h1&gt;
 &lt;a id=&#34;more&#34;&gt;&lt;/a&gt;
 &lt;h2 id=&#34;开启评论配置&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#开启评论配置&#34;&gt;#&lt;/a&gt; 开启评论配置&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;+ 安装好 hexo-symbols-count-time 插件后，不需要修改站点配置文件，直接使用插件默认配置就行。
@@ -31,7 +26,8 @@
 &lt;h2 id=&#34;文章关闭评论权限&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#文章关闭评论权限&#34;&gt;#&lt;/a&gt; 文章关闭评论权限&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;如果某一篇文章需要关闭评论功能，则在文章 Front Matter 中配置：
 &lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;---&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;title: 关闭评论&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;comment: false&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;---&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/code&gt;&lt;/pre&gt;
- ]]></description>
-        </item>
-    </channel>
-</rss>
+</content>
+        <category term="Hexo" />
+        <updated>2020-12-22T16:00:00.000Z</updated>
+    </entry>
+</feed>
