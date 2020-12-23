@@ -2,6 +2,7 @@
 title: 枚举Enum
 date: 2020-12-22
 categories: TypeScript
+cover: https://w.wallhaven.cc/full/r7/wallhaven-r786xw.jpg
 ---
 
 ## 枚举 enum

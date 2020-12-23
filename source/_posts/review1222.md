@@ -2,6 +2,7 @@
 title: 地址栏输入url 发生了什么
 date: 2020-12-22
 categories: JavaScript
+cover: https://w.wallhaven.cc/full/dg/wallhaven-dg3vql.png
 ---
 
 ## 地址栏输入url 发生了什么?

@@ -2,6 +2,7 @@
 title: 类Class
 date: 2020-12-22
 categories: TypeScript
+cover: https://w.wallhaven.cc/full/39/wallhaven-397qey.jpg
 ---
 
 ## Class

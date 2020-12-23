@@ -36,7 +36,7 @@ loader:
 
 # click with Firework
 fireworks:
-  enable: true
+  enable: false
   color:
     # - "rgba(255,182,185,.9)"
     # - "rgba(250,227,217,.9)"
@@ -90,6 +90,7 @@ iconfont: "1832207_c8i9n1ulxlt"
 
 menu:
   home: / || home
+  # guestbook: /guestbook
   # about: /about/ || user
   posts:
     default: / || feather
@@ -142,12 +143,12 @@ footer:
     # Change the color of icon, using Hex Code.
     color: "#ffc0cb"
   # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
-  count: false
+  count: true
   powered: true
 
 post:
   # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
-  count: false
+  count: true
 
 # Reward (Donate)
 reward:
@@ -185,9 +186,12 @@ creative_commons:
 # Valine
 # For more information: https://github.com/amehime/MiniValine
 valine:
-  appId: #Your_appId
-  appKey: #Your_appkey
-  placeholder: ヽ(○´∀`)ﾉ♪ # Comment box placeholder
+  appId: zFF1pF9bycShXmAVnvtf6sum-gzGzoHsz
+  appKey: dPerGm8GF0XiWm2PbIKN7zVv
+  placeholder: 
+    1. 提问前请先仔细阅读本文档⚡
+    2. 页面显示问题💥，请提供控制台截图📸或者您的测试网址
+    3. 其他任何报错💣，请提供详细描述和截图📸，祝食用愉快💪 # Comment box placeholder
   avatar: mp # Gravatar style : mp, identicon, monsterid, wavatar, robohash, retro
   pageSize: 10 # Pagination size
   lang: en
