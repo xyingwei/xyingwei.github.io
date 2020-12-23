@@ -3,7 +3,30 @@
     <id>http://example.com</id>
     <title>徐爸爸是超人</title>
     <link href="http://example.com" />
-    <updated>2020-12-21T16:00:00.000Z</updated>
+    <updated>2020-12-22T16:00:00.000Z</updated>
+    <entry>
+        <id>http://example.com/2020/12/23/hexo-blog/feedback/</id>
+        <title>shoka主题 添加评论功能</title>
+        <link rel="alternate" href="http://example.com/2020/12/23/hexo-blog/feedback/"/>
+        <content type="html">&lt;h1 id=&#34;shoka主题-添加评论功能&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#shoka主题-添加评论功能&#34;&gt;#&lt;/a&gt; shoka 主题 添加评论功能&lt;/h1&gt;
+&lt;h2 id=&#34;开启评论配置&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#开启评论配置&#34;&gt;#&lt;/a&gt; 开启评论配置&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;+ 安装好 hexo-symbols-count-time 插件后，不需要修改站点配置文件，直接使用插件默认配置就行。
++ 需要修改主题配置文件，找到两处 cout ，修改为 true ：
+&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;# 页尾全站统计&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;footer:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  since: 2010&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  count: true&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;# 文章界面统计&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;post:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  count: true&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;开启valine&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#开启valine&#34;&gt;#&lt;/a&gt; 开启 Valine&lt;/h2&gt;
+&lt;p&gt;我们的评论系统其实是放在&lt;mark&gt; Leancloud 上&lt;/mark&gt;的，因此首先需要去注册一个账号 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6bGVhbmNsb3VkLmNu&#34;&gt;点我注册&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;注册完以后需要创建一个应用，名字可以随便起，然后 进入应用 -&amp;gt; 设置 -&amp;gt; 应用 key , 获取你的 appid 和 appkey&lt;/li&gt;
+&lt;li&gt;打开 shoka 主题配置文件 (_config.yml), 搜索 valine，填入&lt;mark&gt; appid&lt;/mark&gt; 和 &lt;mark&gt;appkey&lt;/mark&gt;&lt;/li&gt;
+&lt;li&gt;在 Leancloud -&amp;gt; 设置 -&amp;gt; 安全中心 -&amp;gt; Web 安全域名 把你的域名加进去🎉结束撒花～&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;文章关闭评论权限&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#文章关闭评论权限&#34;&gt;#&lt;/a&gt; 文章关闭评论权限&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;如果某一篇文章需要关闭评论功能，则在文章 Front Matter 中配置：
+&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;---&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;title: 关闭评论&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;comment: false&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;---&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/code&gt;&lt;/pre&gt;
+</content>
+        <updated>2020-12-22T16:00:00.000Z</updated>
+    </entry>
     <entry>
         <id>http://example.com/2020/12/22/20201222/</id>
         <title>vue-mixins的理解和简单使用</title>
