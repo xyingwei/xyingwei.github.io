@@ -13,6 +13,16 @@
             "tags": [
                 "vscode"
             ]
+        },
+        {
+            "id": "http://example.com/2020/01/08/fronted/vscode/%E6%8F%92%E4%BB%B6/",
+            "url": "http://example.com/2020/01/08/fronted/vscode/%E6%8F%92%E4%BB%B6/",
+            "title": "自用插件",
+            "date_published": "2020-01-08T07:37:00.000Z",
+            "content_html": "<h2 id=\"any-rule\"><a class=\"markdownIt-Anchor\" href=\"#any-rule\">#</a> any-rule</h2>\n<figure class=\"highlight plain\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">ctrl+shift+p调出工具栏</span><br><span class=\"line\">再输入zz</span><br></pre></td></tr></table></figure>\n<h2 id=\"image-preview\"><a class=\"markdownIt-Anchor\" href=\"#image-preview\">#</a> Image preview</h2>\n<pre><code>预览图片\n</code></pre>\n<h2 id=\"git-history\"><a class=\"markdownIt-Anchor\" href=\"#git-history\">#</a> Git History</h2>\n<pre><code>查看git历史\n</code></pre>\n<h2 id=\"chinese\"><a class=\"markdownIt-Anchor\" href=\"#chinese\">#</a> chinese</h2>\n<pre><code>vscode 汉化插件\n</code></pre>\n<h2 id=\"未完待续\"><a class=\"markdownIt-Anchor\" href=\"#未完待续\">#</a> 未完待续</h2>\n",
+            "tags": [
+                "vscode"
+            ]
         }
     ]
 }

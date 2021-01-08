@@ -5,11 +5,13 @@
     <link href="http://example.com" />
     <updated>2020-12-21T16:00:00.000Z</updated>
     <category term="Hexo" />
+    <category term="markdown" />
     <category term="vscode" />
+    <category term="Html Css" />
     <entry>
-        <id>http://example.com/2020/12/22/fronted/Vue/review1222/</id>
+        <id>http://example.com/2020/12/22/fronted/JavaScript/review1222/</id>
         <title>地址栏输入url 发生了什么</title>
-        <link rel="alternate" href="http://example.com/2020/12/22/fronted/Vue/review1222/"/>
+        <link rel="alternate" href="http://example.com/2020/12/22/fronted/JavaScript/review1222/"/>
         <content type="html">&lt;h2 id=&#34;地址栏输入url-发生了什么&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#地址栏输入url-发生了什么&#34;&gt;#&lt;/a&gt; 地址栏输入 url 发生了什么？&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;首先会进行 url 解析，根据 dns 系统进行 ip 查找&lt;/li&gt;

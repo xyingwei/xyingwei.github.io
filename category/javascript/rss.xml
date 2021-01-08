@@ -8,11 +8,13 @@
         <pubDate>Tue, 22 Dec 2020 00:00:00 +0800</pubDate>
         <lastBuildDate>Tue, 22 Dec 2020 00:00:00 +0800</lastBuildDate>
         <category>Hexo</category>
+        <category>markdown</category>
         <category>vscode</category>
+        <category>Html Css</category>
         <item>
-            <guid isPermalink="true">http://example.com/2020/12/22/fronted/Vue/review1222/</guid>
+            <guid isPermalink="true">http://example.com/2020/12/22/fronted/JavaScript/review1222/</guid>
             <title>地址栏输入url 发生了什么</title>
-            <link>http://example.com/2020/12/22/fronted/Vue/review1222/</link>
+            <link>http://example.com/2020/12/22/fronted/JavaScript/review1222/</link>
             <pubDate>Tue, 22 Dec 2020 00:00:00 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;地址栏输入url-发生了什么&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#地址栏输入url-发生了什么&#34;&gt;#&lt;/a&gt; 地址栏输入 url 发生了什么？&lt;/h2&gt;
 &lt;ul&gt;

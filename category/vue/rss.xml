@@ -8,11 +8,13 @@
         <pubDate>Tue, 22 Dec 2020 00:00:00 +0800</pubDate>
         <lastBuildDate>Tue, 22 Dec 2020 00:00:00 +0800</lastBuildDate>
         <category>Hexo</category>
+        <category>markdown</category>
         <category>vscode</category>
+        <category>Html Css</category>
         <item>
-            <guid isPermalink="true">http://example.com/2020/12/22/fronted/JavaScript/20201222/</guid>
+            <guid isPermalink="true">http://example.com/2020/12/22/fronted/Vue/20201222/</guid>
             <title>vue-mixins的理解和简单使用</title>
-            <link>http://example.com/2020/12/22/fronted/JavaScript/20201222/</link>
+            <link>http://example.com/2020/12/22/fronted/Vue/20201222/</link>
             <pubDate>Tue, 22 Dec 2020 00:00:00 +0800</pubDate>
             <description><![CDATA[ &lt;h3 id=&#34;via&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#via&#34;&gt;#&lt;/a&gt; via&lt;/h3&gt;
   &lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;作者：老鼠AI大米_Java全栈&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;链接：https:&amp;#x2F;&amp;#x2F;www.jianshu.com&amp;#x2F;p&amp;#x2F;a72bf060eeaa&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;来源：简书&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -38,6 +40,14 @@
 &lt;/li&gt;
 &lt;/ul&gt;
  ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2020/01/08/fronted/Vue/20210108/</guid>
+            <title>键盘enter事件的使用</title>
+            <link>http://example.com/2020/01/08/fronted/Vue/20210108/</link>
+            <pubDate>Wed, 08 Jan 2020 00:00:00 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;示例&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#示例&#34;&gt;#&lt;/a&gt; 示例&lt;/h2&gt;
+&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;@keyup.native.enter&amp;#x3D;&amp;quot;search&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
     </channel>
 </rss>

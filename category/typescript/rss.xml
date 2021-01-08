@@ -5,10 +5,22 @@
         <link>http://example.com</link>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Wed, 23 Dec 2020 00:00:00 +0800</pubDate>
-        <lastBuildDate>Wed, 23 Dec 2020 00:00:00 +0800</lastBuildDate>
+        <pubDate>Wed, 30 Dec 2020 00:00:00 +0800</pubDate>
+        <lastBuildDate>Wed, 30 Dec 2020 00:00:00 +0800</lastBuildDate>
         <category>Hexo</category>
+        <category>markdown</category>
         <category>vscode</category>
+        <category>Html Css</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2020/12/30/fronted/TypeScript/interface/</guid>
+            <title>接口interface</title>
+            <link>http://example.com/2020/12/30/fronted/TypeScript/interface/</link>
+            <pubDate>Wed, 30 Dec 2020 00:00:00 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;接口interface&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#接口interface&#34;&gt;#&lt;/a&gt; 接口 interface&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;接口的作用就是为这些类型命名和为你的代码或第三方代码定义契约。&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;示例&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#示例&#34;&gt;#&lt;/a&gt; 示例&lt;/h2&gt;
+&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;interface LabelledValue &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  label: string;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;function printLabel(labelledObj:LabelledValue) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  console.log(labelledObj.label)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;et myObj &amp;#x3D; &amp;#123;size: 10, label: &amp;quot;Size 10 Object&amp;quot;&amp;#125;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;printLabel(myObj);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/2020/12/23/fronted/TypeScript/function/</guid>
             <title>函数Function</title>

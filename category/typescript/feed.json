@@ -5,6 +5,14 @@
     "home_page_url": "http://example.com",
     "items": [
         {
+            "id": "http://example.com/2020/12/30/fronted/TypeScript/interface/",
+            "url": "http://example.com/2020/12/30/fronted/TypeScript/interface/",
+            "title": "接口interface",
+            "date_published": "2020-12-29T16:00:00.000Z",
+            "content_html": "<h2 id=\"接口interface\"><a class=\"markdownIt-Anchor\" href=\"#接口interface\">#</a> 接口 interface</h2>\n<p><code>接口的作用就是为这些类型命名和为你的代码或第三方代码定义契约。</code></p>\n<h2 id=\"示例\"><a class=\"markdownIt-Anchor\" href=\"#示例\">#</a> 示例</h2>\n<figure class=\"highlight plain\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br><span class=\"line\">4</span><br><span class=\"line\">5</span><br><span class=\"line\">6</span><br><span class=\"line\">7</span><br><span class=\"line\">8</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">interface LabelledValue &#123;</span><br><span class=\"line\">  label: string;</span><br><span class=\"line\">&#125;</span><br><span class=\"line\">function printLabel(labelledObj:LabelledValue) &#123;</span><br><span class=\"line\">  console.log(labelledObj.label)</span><br><span class=\"line\">&#125;</span><br><span class=\"line\">et myObj &#x3D; &#123;size: 10, label: &quot;Size 10 Object&quot;&#125;;</span><br><span class=\"line\">printLabel(myObj);</span><br></pre></td></tr></table></figure>",
+            "tags": []
+        },
+        {
             "id": "http://example.com/2020/12/23/fronted/TypeScript/function/",
             "url": "http://example.com/2020/12/23/fronted/TypeScript/function/",
             "title": "函数Function",

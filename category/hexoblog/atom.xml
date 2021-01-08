@@ -5,7 +5,9 @@
     <link href="http://example.com" />
     <updated>2020-12-22T16:00:00.000Z</updated>
     <category term="Hexo" />
+    <category term="markdown" />
     <category term="vscode" />
+    <category term="Html Css" />
     <entry>
         <id>http://example.com/2020/12/23/hexo-blog/feedback/</id>
         <title>shoka主题 添加评论功能</title>
