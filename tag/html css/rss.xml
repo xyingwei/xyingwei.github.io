@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>徐爸爸是超人 • Posts by &#34;html css&#34; tag</title>
+        <link>http://example.com</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Fri, 08 Jan 2021 00:00:00 +0800</pubDate>
+        <lastBuildDate>Fri, 08 Jan 2021 00:00:00 +0800</lastBuildDate>
+        <category>Hexo</category>
+        <category>vscode</category>
+        <category>CSS</category>
+        <category>Html CSS</category>
+        <category>markdown</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2021/01/08/fronted/CSS/%E9%A1%B5%E9%9D%A2%E6%89%93%E5%8D%B0%E6%98%BE%E7%A4%BA%E9%A1%B5%E7%9C%89%E9%A1%B5%E8%84%9A/</guid>
+            <title>前端页面打印需要每一页需要展示页眉页脚?</title>
+            <link>http://example.com/2021/01/08/fronted/CSS/%E9%A1%B5%E9%9D%A2%E6%89%93%E5%8D%B0%E6%98%BE%E7%A4%BA%E9%A1%B5%E7%9C%89%E9%A1%B5%E8%84%9A/</link>
+            <category>Html CSS</category>
+            <pubDate>Fri, 08 Jan 2021 00:00:00 +0800</pubDate>
+            <description><![CDATA[  ]]></description>
+        </item>
+    </channel>
+</rss>

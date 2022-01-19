@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>徐爸爸是超人 • Posts by &#34;hexo&#34; tag</title>
+        <link>http://example.com</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Wed, 23 Dec 2020 00:00:00 +0800</pubDate>
+        <lastBuildDate>Wed, 23 Dec 2020 00:00:00 +0800</lastBuildDate>
+        <category>Hexo</category>
+        <category>vscode</category>
+        <category>CSS</category>
+        <category>Html CSS</category>
+        <category>markdown</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2020/12/23/hexo-blog/feedback/</guid>
+            <title>shoka主题 添加评论功能</title>
+            <link>http://example.com/2020/12/23/hexo-blog/feedback/</link>
+            <category>Hexo</category>
+            <pubDate>Wed, 23 Dec 2020 00:00:00 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;shoka主题-添加评论功能&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#shoka主题-添加评论功能&#34;&gt;#&lt;/a&gt; shoka 主题 添加评论功能&lt;/h1&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+&lt;h2 id=&#34;开启评论配置&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#开启评论配置&#34;&gt;#&lt;/a&gt; 开启评论配置&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;+ 安装好 hexo-symbols-count-time 插件后，不需要修改站点配置文件，直接使用插件默认配置就行。
++ 需要修改主题配置文件，找到两处 cout ，修改为 true ：
+&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;# 页尾全站统计&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;footer:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  since: 2010&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  count: true&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;# 文章界面统计&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;post:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  count: true&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;开启valine&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#开启valine&#34;&gt;#&lt;/a&gt; 开启 Valine&lt;/h2&gt;
+&lt;p&gt;我们的评论系统其实是放在&lt;mark&gt; Leancloud 上&lt;/mark&gt;的，因此首先需要去注册一个账号 &lt;a href=&#34;https:leancloud.cn&#34;&gt;点我注册&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;注册完以后需要创建一个应用，名字可以随便起，然后 进入应用 -&amp;gt; 设置 -&amp;gt; 应用 key , 获取你的 appid 和 appkey&lt;/li&gt;
+&lt;li&gt;打开 shoka 主题配置文件 (_config.yml), 搜索 valine，填入&lt;mark&gt; appid&lt;/mark&gt; 和 &lt;mark&gt;appkey&lt;/mark&gt;&lt;/li&gt;
+&lt;li&gt;在 Leancloud -&amp;gt; 设置 -&amp;gt; 安全中心 -&amp;gt; Web 安全域名 把你的域名加进去🎉结束撒花～&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;文章关闭评论权限&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#文章关闭评论权限&#34;&gt;#&lt;/a&gt; 文章关闭评论权限&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;如果某一篇文章需要关闭评论功能，则在文章 Front Matter 中配置：
+&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;---&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;title: 关闭评论&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;comment: false&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;---&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/code&gt;&lt;/pre&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2020/12/23/hexo-blog/hexo%E6%8C%87%E4%BB%A4/</guid>
+            <title>Hexo相关指令</title>
+            <link>http://example.com/2020/12/23/hexo-blog/hexo%E6%8C%87%E4%BB%A4/</link>
+            <category>Hexo</category>
+            <pubDate>Wed, 23 Dec 2020 00:00:00 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;新建一篇文章&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#新建一篇文章&#34;&gt;#&lt;/a&gt; 新建一篇文章&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;hexo new &amp;quot;文章名称&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;启动服务器-默认情况下访问网址为-httplocalhost4000&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#启动服务器-默认情况下访问网址为-httplocalhost4000&#34;&gt;#&lt;/a&gt; 启动服务器。默认情况下，访问网址为： &lt;a href=&#34;http://localhost:4000/%E3%80%82&#34;&gt;http://localhost:4000/。&lt;/a&gt;&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;hexo s
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;部署&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#部署&#34;&gt;#&lt;/a&gt; 部署&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;清除缓存文件 (db.json) 和已生成的静态文件 (public)。&lt;br&gt;
+hexo clean&lt;/li&gt;
+&lt;li&gt;生成静态文件。&lt;br&gt;
+hexo g&lt;/li&gt;
+&lt;li&gt;部署网站。部署之前预先生成静态文件，执行第二步 hexo g&lt;br&gt;
+hexo d&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

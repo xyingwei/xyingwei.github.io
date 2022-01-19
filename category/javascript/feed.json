@@ -1,0 +1,16 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "徐爸爸是超人 • All posts by \"javascript\" category",
+    "description": "",
+    "home_page_url": "http://example.com",
+    "items": [
+        {
+            "id": "http://example.com/2020/12/22/fronted/JavaScript/review1222/",
+            "url": "http://example.com/2020/12/22/fronted/JavaScript/review1222/",
+            "title": "地址栏输入url 发生了什么",
+            "date_published": "2020-12-21T16:00:00.000Z",
+            "content_html": "<h2 id=\"地址栏输入url-发生了什么\"><a class=\"markdownIt-Anchor\" href=\"#地址栏输入url-发生了什么\">#</a> 地址栏输入 url 发生了什么？</h2>\n<ul>\n<li>首先会进行 url 解析，根据 dns 系统进行 ip 查找</li>\n<li>根据 ip 就可以找到服务器，然后浏览器和服务器会进行 TCP 三次握手建立连接，如果此时是 https 的话，还会建立 TLS 连接以及加密算法.</li>\n<li>连接建立后浏览器开始发送请求获取文件，此时这里还会出现一种情况就是缓存，建立连接后是走缓存还是直接重新获取，需要看后台的设置，所以这里会有一个关注的问题 &quot;浏览器缓存机制&quot;. 现在我们当没有缓存，直接获取文件</li>\n<li>首先获取 HTML 文件，构建 DOM 树，这个过程是边下载边解析，并不是等 HTML 文件全部下载完成，再去解析，这样比较浪费时间，而是下载一点解析一点.</li>\n<li>解析到头部的时候，又会出现一种问题，css,js 放在哪里？不同的位置会造成渲染的不同，此时就会出现另一个需要关注的问题 &quot;css,js 位置应该放哪里？为什么&quot;，我们先按照正确的位置来说明 (css 放头部，js 放尾部).</li>\n<li>解析到了 html 头部发现有 css 文件，此时下载 css 文件，css 文件也是一边下载一边解析的，构建的是 CSSOM 树，当 DOM 树和 CSSOM 树全部构建完之后，浏览器会把 DOM 树和 CSSOM 树构建成渲染树。</li>\n<li>样式计算，上面最后一句 &quot;DOM 树和 CSSOM 树会一起构建成渲染树&quot; 说的有点笼统，其实还有更细一点的操作，但是一般回答到上面应该就可以了，我们现在接上面说一下构造渲染树的时候还做了哪些事情。第一个就是样式计算，DOM 树 和 CSSOM 树有了之后，浏览器开始样式计算，主要是为 DOM 树上的节点找到对应的样式。</li>\n<li>构建布局树，样式计算完之后就开始构建布局树。主要是为 DOM 树上的节点找到页面上对应位置以及一些 &quot;display:none&quot; 元素的隐藏。</li>\n<li>构建分层树，布局树完成后浏览器还需要建立分层树，主要是为了满足滚动条，z-index，position 这些复杂的分层操作</li>\n<li>将分层树图块化，利用光栅找到视图窗口下的对应的位图。主要是因为一个页面可能有几屏那么长，一下渲染出来比较浪费，所以浏览器会找到视图窗口对应的图块，将这部分的图块进行渲染</li>\n<li>最终渲染进程将整个页面渲染出来，在渲染的过程中会还出现重排和重绘，这也是比较爱问的问题 &quot;重排重绘为什么会影响渲染，如何避免？&quot;</li>\n<li>以上过程大概讲解了一下从 url 到页面渲染的整个过程</li>\n</ul>\n",
+            "tags": []
+        }
+    ]
+}

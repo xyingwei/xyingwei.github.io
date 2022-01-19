@@ -1,0 +1,44 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "徐爸爸是超人 • All posts by \"css\" category",
+    "description": "",
+    "home_page_url": "http://example.com",
+    "items": [
+        {
+            "id": "http://example.com/2021/01/27/fronted/CSS/%E6%96%87%E5%AD%97%E6%B8%90%E5%8F%98/",
+            "url": "http://example.com/2021/01/27/fronted/CSS/%E6%96%87%E5%AD%97%E6%B8%90%E5%8F%98/",
+            "title": "文字渐变",
+            "date_published": "2021-01-26T16:00:00.000Z",
+            "content_html": "<figure class=\"highlight plain\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br><span class=\"line\">4</span><br><span class=\"line\">5</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">text &#123;</span><br><span class=\"line\">  background: linear-gradient(to bottom, #8AF0FF,#3780E6);;</span><br><span class=\"line\">  -webkit-background-clip: text;</span><br><span class=\"line\">  color: transparent;</span><br><span class=\"line\">&#125;</span><br></pre></td></tr></table></figure>",
+            "tags": []
+        },
+        {
+            "id": "http://example.com/2021/01/14/fronted/CSS/20210114/",
+            "url": "http://example.com/2021/01/14/fronted/CSS/20210114/",
+            "title": "css——使用全局变量设置主题颜色",
+            "date_published": "2021-01-13T16:00:00.000Z",
+            "content_html": "<h2 id=\"变量的声明\"><a class=\"markdownIt-Anchor\" href=\"#变量的声明\">#</a> 变量的声明</h2>\n<pre><code>CSS变量声明是字母前加两个横线（--）\n<figure class=\"highlight plain\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br><span class=\"line\">4</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">body&#123;</span><br><span class=\"line\">  　　--Colors:#dfdfdf;</span><br><span class=\"line\">  　　--fS16px:16px;</span><br><span class=\"line\">&#125;</span><br></pre></td></tr></table></figure>\n</code></pre>\n<h2 id=\"使用变量\"><a class=\"markdownIt-Anchor\" href=\"#使用变量\">#</a> 使用变量</h2>\n<ul>\n<li>var 函数用来读取变量  <figure class=\"highlight plain\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">a&#123;</span><br><span class=\"line\">  color:var(--Colors);     </span><br><span class=\"line\">&#125;</span><br></pre></td></tr></table></figure>\n</li>\n<li>var () 函数还可以使用第二个参数，表示变量的默认值。如果该变量不存在，就会使用这个默认值.  <figure class=\"highlight plain\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">color: var(--Colors, #e5e5e5);</span><br></pre></td></tr></table></figure></li>\n</ul>\n",
+            "tags": []
+        },
+        {
+            "id": "http://example.com/2021/01/14/fronted/CSS/%E5%86%85%E5%AE%B9%E6%BB%9A%E5%8A%A8/",
+            "url": "http://example.com/2021/01/14/fronted/CSS/%E5%86%85%E5%AE%B9%E6%BB%9A%E5%8A%A8/",
+            "title": "css 中div不用设定高度，自动根据内容出现滚动条",
+            "date_published": "2021-01-13T16:00:00.000Z",
+            "content_html": "<h2 id=\"css-中div不用设定高度自动根据内容出现滚动条\"><a class=\"markdownIt-Anchor\" href=\"#css-中div不用设定高度自动根据内容出现滚动条\">#</a> css 中 div 不用设定高度，自动根据内容出现滚动条</h2>\n<figure class=\"highlight plain\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br><span class=\"line\">4</span><br><span class=\"line\">5</span><br><span class=\"line\">6</span><br><span class=\"line\">7</span><br><span class=\"line\">8</span><br><span class=\"line\">9</span><br><span class=\"line\">10</span><br><span class=\"line\">11</span><br><span class=\"line\">12</span><br><span class=\"line\">13</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">.parent&#123;</span><br><span class=\"line\">  position:relative;</span><br><span class=\"line\">  height:100%;&#x2F;&#x2F;高度根据需求自行设定</span><br><span class=\"line\">&#125;</span><br><span class=\"line\">.child&#123;</span><br><span class=\"line\">  position:absolute;</span><br><span class=\"line\">  left:0;</span><br><span class=\"line\">  top:0;</span><br><span class=\"line\">  right:0;</span><br><span class=\"line\">  bottom:0; &#x2F;&#x2F;left,top,right,bottom都为0，充满真个页面</span><br><span class=\"line\">  overflow-y:auto;</span><br><span class=\"line\">  overflow-x:hidden; &#x2F;&#x2F;设置Y轴出现滚动条，X轴隐藏</span><br><span class=\"line\">&#125;</span><br></pre></td></tr></table></figure>",
+            "tags": [
+                "CSS"
+            ]
+        },
+        {
+            "id": "http://example.com/2021/01/08/fronted/CSS/%E9%A1%B5%E9%9D%A2%E6%89%93%E5%8D%B0%E6%98%BE%E7%A4%BA%E9%A1%B5%E7%9C%89%E9%A1%B5%E8%84%9A/",
+            "url": "http://example.com/2021/01/08/fronted/CSS/%E9%A1%B5%E9%9D%A2%E6%89%93%E5%8D%B0%E6%98%BE%E7%A4%BA%E9%A1%B5%E7%9C%89%E9%A1%B5%E8%84%9A/",
+            "title": "前端页面打印需要每一页需要展示页眉页脚?",
+            "date_published": "2021-01-07T16:00:00.000Z",
+            "content_html": "",
+            "tags": [
+                "Html CSS"
+            ]
+        }
+    ]
+}
