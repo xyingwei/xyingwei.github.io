@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://example.com</id>
+    <title>徐爸爸是超人 • Posts by &#34;source&#34; category</title>
+    <link href="http://example.com" />
+    <updated>2022-02-16T16:00:00.000Z</updated>
+    <category term="Hexo" />
+    <category term="vscode" />
+    <category term="CSS" />
+    <category term="Html CSS" />
+    <category term="markdown" />
+    <category term="typora" />
+    <category term="vpn" />
+    <entry>
+        <id>http://example.com/2022/02/17/private-source/vpn/</id>
+        <title>vpn</title>
+        <link rel="alternate" href="http://example.com/2022/02/17/private-source/vpn/"/>
+        <content type="html">&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;[教程链接]: &lt;a href=&#34;https://github.com/freefq/tutorials&#34;&gt;https://github.com/freefq/tutorials&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <category term="vpn" />
+        <updated>2022-02-16T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2022/01/20/private-source/typora/</id>
+        <title>Typora 镜像下载/主题下载</title>
+        <link rel="alternate" href="http://example.com/2022/01/20/private-source/typora/"/>
+        <content type="html">&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;[gitee镜像下载]: &lt;a href=&#34;https://gitee.com/typora-mirror/Typora-Mirror/releases&#34;&gt;https://gitee.com/typora-mirror/Typora-Mirror/releases&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <category term="typora" />
+        <updated>2022-01-19T16:00:00.000Z</updated>
+    </entry>
+</feed>

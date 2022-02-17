@@ -12,6 +12,8 @@
         <category>CSS</category>
         <category>Html CSS</category>
         <category>markdown</category>
+        <category>typora</category>
+        <category>vpn</category>
         <item>
             <guid isPermalink="true">http://example.com/2021/01/14/fronted/CSS/%E5%86%85%E5%AE%B9%E6%BB%9A%E5%8A%A8/</guid>
             <title>css 中div不用设定高度，自动根据内容出现滚动条</title>

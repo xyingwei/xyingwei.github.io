@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>徐爸爸是超人 • Posts by &#34;source&#34; category</title>
+        <link>http://example.com</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Thu, 17 Feb 2022 00:00:00 +0800</pubDate>
+        <lastBuildDate>Thu, 17 Feb 2022 00:00:00 +0800</lastBuildDate>
+        <category>Hexo</category>
+        <category>vscode</category>
+        <category>CSS</category>
+        <category>Html CSS</category>
+        <category>markdown</category>
+        <category>typora</category>
+        <category>vpn</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2022/02/17/private-source/vpn/</guid>
+            <title>vpn</title>
+            <link>http://example.com/2022/02/17/private-source/vpn/</link>
+            <category>vpn</category>
+            <pubDate>Thu, 17 Feb 2022 00:00:00 +0800</pubDate>
+            <description><![CDATA[ &lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;[教程链接]: &lt;a href=&#34;https://github.com/freefq/tutorials&#34;&gt;https://github.com/freefq/tutorials&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/2022/01/20/private-source/typora/</guid>
+            <title>Typora 镜像下载/主题下载</title>
+            <link>http://example.com/2022/01/20/private-source/typora/</link>
+            <category>typora</category>
+            <pubDate>Thu, 20 Jan 2022 00:00:00 +0800</pubDate>
+            <description><![CDATA[ &lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;[gitee镜像下载]: &lt;a href=&#34;https://gitee.com/typora-mirror/Typora-Mirror/releases&#34;&gt;https://gitee.com/typora-mirror/Typora-Mirror/releases&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

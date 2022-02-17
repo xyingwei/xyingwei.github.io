@@ -9,6 +9,8 @@
     <category term="CSS" />
     <category term="Html CSS" />
     <category term="markdown" />
+    <category term="typora" />
+    <category term="vpn" />
     <entry>
         <id>http://example.com/2022/01/19/fronted/Vue/%E7%BA%BF%E4%B8%8A%E7%8E%AF%E5%A2%83%E5%BC%80%E5%90%AFvue%E5%B7%A5%E5%85%B7/</id>
         <title>开启vue2 production调试的方法</title>

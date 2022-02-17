@@ -12,6 +12,8 @@
         <category>CSS</category>
         <category>Html CSS</category>
         <category>markdown</category>
+        <category>typora</category>
+        <category>vpn</category>
         <item>
             <guid isPermalink="true">http://example.com/2022/01/19/fronted/Vue/%E7%BA%BF%E4%B8%8A%E7%8E%AF%E5%A2%83%E5%BC%80%E5%90%AFvue%E5%B7%A5%E5%85%B7/</guid>
             <title>开启vue2 production调试的方法</title>
