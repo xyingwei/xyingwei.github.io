@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://example.com</id>
+    <title>徐爸爸是超人 • Posts by &#34;other&#34; category</title>
+    <link href="http://example.com" />
+    <updated>2022-07-12T16:00:00.000Z</updated>
+    <category term="Hexo" />
+    <category term="typora" />
+    <category term="vpn" />
+    <category term="CSS" />
+    <category term="Html CSS" />
+    <category term="markdown" />
+    <category term="vscode" />
+    <entry>
+        <id>http://example.com/2022/07/13/xyw/%E7%A3%81%E5%8A%9B%E9%93%BE%E6%8E%A5/</id>
+        <title>福利</title>
+        <link rel="alternate" href="http://example.com/2022/07/13/xyw/%E7%A3%81%E5%8A%9B%E9%93%BE%E6%8E%A5/"/>
+        <content type="html">&lt;h3 id=&#34;登录vpn&#34;&gt;&lt;a href=&#34;#登录vpn&#34; class=&#34;headerlink&#34; title=&#34;登录vpn&#34;&gt;&lt;/a&gt;登录vpn&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;iPhone为例 下载Shadowrocket&lt;/li&gt;
+&lt;li&gt;获取免费vpn节点 &lt;strong&gt;[教程链接]: &lt;a href=&#34;https://github.com/freefq/free&#34;&gt;https://github.com/freefq/free&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;在Shadowrocket中添加节点,连接&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;获取磁力链接&#34;&gt;&lt;a href=&#34;#获取磁力链接&#34; class=&#34;headerlink&#34; title=&#34;获取磁力链接&#34;&gt;&lt;/a&gt;获取磁力链接&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;必须使用chrome浏览器&lt;/li&gt;
+&lt;li&gt;[网址]: &lt;a href=&#34;https://wwww.j%a%v%b%us.com&#34;&gt;https://wwww.j%a%v%b%us.com&lt;/a&gt; 前面的地址去掉%&lt;/li&gt;
+&lt;li&gt;找到资源,长按复制资源链接&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;迅雷&#34;&gt;&lt;a href=&#34;#迅雷&#34; class=&#34;headerlink&#34; title=&#34;迅雷&#34;&gt;&lt;/a&gt;迅雷&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;下载手机迅雷&lt;/li&gt;
+&lt;li&gt;首页-创建-粘贴 磁力链接 -保存&lt;/li&gt;
+&lt;li&gt;自动跳转至Safari浏览器-存云盘-查看云盘文件&lt;/li&gt;
+&lt;li&gt;加载完毕-可在线观看,也可取回本地即下载至本地&lt;/li&gt;
+&lt;li&gt;内存足够建议取回本地,因为云盘内容大概率很快会被和谐&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <updated>2022-07-12T16:00:00.000Z</updated>
+    </entry>
+</feed>

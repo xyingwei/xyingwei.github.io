@@ -1,0 +1,16 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "徐爸爸是超人 • All posts by \"nodejs\" category",
+    "description": "",
+    "home_page_url": "http://example.com",
+    "items": [
+        {
+            "id": "http://example.com/2020/07/13/fronted/Nodejs/%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%9320220713/",
+            "url": "http://example.com/2020/07/13/fronted/Nodejs/%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%9320220713/",
+            "title": "nodejs 连接数据库",
+            "date_published": "2020-07-12T16:00:00.000Z",
+            "content_html": "<h3 id=\"安装mysql中间件\"><a href=\"#安装mysql中间件\" class=\"headerlink\" title=\"安装mysql中间件\"></a>安装mysql中间件</h3><figure class=\"highlight plain\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">npm i mysql</span><br></pre></td></tr></table></figure>\n<h3 id=\"创建连接并导出\"><a href=\"#创建连接并导出\" class=\"headerlink\" title=\"创建连接并导出\"></a>创建连接并导出</h3><figure class=\"highlight plain\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br><span class=\"line\">4</span><br><span class=\"line\">5</span><br><span class=\"line\">6</span><br><span class=\"line\">7</span><br><span class=\"line\">8</span><br><span class=\"line\">9</span><br><span class=\"line\">10</span><br><span class=\"line\">11</span><br><span class=\"line\">12</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">&#x2F;&#x2F; db&#x2F;index.js</span><br><span class=\"line\">const mysql &#x3D; require(&#39;mysql&#39;)</span><br><span class=\"line\"></span><br><span class=\"line\">const db &#x3D; mysql.createPool(&#123;</span><br><span class=\"line\">    host: &#39;localhost&#39;,</span><br><span class=\"line\">    port: &#39;3306&#39;, &#x2F;&#x2F; 端口</span><br><span class=\"line\">    user: &#39;root&#39;,</span><br><span class=\"line\">    password: &#39;system&#39;,</span><br><span class=\"line\">    database: &#39;yb_test&#39;</span><br><span class=\"line\">&#125;)</span><br><span class=\"line\"></span><br><span class=\"line\">module.exports &#x3D; db</span><br></pre></td></tr></table></figure>\n<h3 id=\"使用页面引入\"><a href=\"#使用页面引入\" class=\"headerlink\" title=\"使用页面引入\"></a>使用页面引入</h3><figure class=\"highlight plain\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br><span class=\"line\">4</span><br><span class=\"line\">5</span><br><span class=\"line\">6</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">const db &#x3D; require(&#39;db文件路径&#39;)</span><br><span class=\"line\">const sqlStr &#x3D; &#39;sqlStr&#39;</span><br><span class=\"line\">db.query(sqlStr,参数,(error,result)&#x3D;&gt;&#123;</span><br><span class=\"line\">    if(error) return console.log(&#39;error&#39;,error)</span><br><span class=\"line\">    console.log(&#39;result&#39;,result)</span><br><span class=\"line\">&#125;)</span><br></pre></td></tr></table></figure>",
+            "tags": []
+        }
+    ]
+}

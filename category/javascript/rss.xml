@@ -8,30 +8,29 @@
         <pubDate>Tue, 22 Dec 2020 00:00:00 +0800</pubDate>
         <lastBuildDate>Tue, 22 Dec 2020 00:00:00 +0800</lastBuildDate>
         <category>Hexo</category>
-        <category>vscode</category>
+        <category>typora</category>
+        <category>vpn</category>
         <category>CSS</category>
         <category>Html CSS</category>
         <category>markdown</category>
-        <category>typora</category>
-        <category>vpn</category>
+        <category>vscode</category>
         <item>
             <guid isPermalink="true">http://example.com/2020/12/22/fronted/JavaScript/review1222/</guid>
             <title>地址栏输入url 发生了什么</title>
             <link>http://example.com/2020/12/22/fronted/JavaScript/review1222/</link>
             <pubDate>Tue, 22 Dec 2020 00:00:00 +0800</pubDate>
-            <description><![CDATA[ &lt;h2 id=&#34;地址栏输入url-发生了什么&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#地址栏输入url-发生了什么&#34;&gt;#&lt;/a&gt; 地址栏输入 url 发生了什么？&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;首先会进行 url 解析，根据 dns 系统进行 ip 查找&lt;/li&gt;
-&lt;li&gt;根据 ip 就可以找到服务器，然后浏览器和服务器会进行 TCP 三次握手建立连接，如果此时是 https 的话，还会建立 TLS 连接以及加密算法.&lt;/li&gt;
-&lt;li&gt;连接建立后浏览器开始发送请求获取文件，此时这里还会出现一种情况就是缓存，建立连接后是走缓存还是直接重新获取，需要看后台的设置，所以这里会有一个关注的问题 &amp;quot;浏览器缓存机制&amp;quot;. 现在我们当没有缓存，直接获取文件&lt;/li&gt;
-&lt;li&gt;首先获取 HTML 文件，构建 DOM 树，这个过程是边下载边解析，并不是等 HTML 文件全部下载完成，再去解析，这样比较浪费时间，而是下载一点解析一点.&lt;/li&gt;
-&lt;li&gt;解析到头部的时候，又会出现一种问题，css,js 放在哪里？不同的位置会造成渲染的不同，此时就会出现另一个需要关注的问题 &amp;quot;css,js 位置应该放哪里？为什么&amp;quot;，我们先按照正确的位置来说明 (css 放头部，js 放尾部).&lt;/li&gt;
+            <description><![CDATA[ &lt;h2 id=&#34;地址栏输入url-发生了什么&#34;&gt;&lt;a href=&#34;#地址栏输入url-发生了什么&#34; class=&#34;headerlink&#34; title=&#34;地址栏输入url 发生了什么?&#34;&gt;&lt;/a&gt;地址栏输入url 发生了什么?&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;首先会进行url解析,根据dns系统进行ip查找&lt;/li&gt;
+&lt;li&gt;根据ip就可以找到服务器,然后浏览器和服务器会进行TCP三次握手建立连接,如果此时是https的话,还会建立TLS连接以及加密算法.&lt;/li&gt;
+&lt;li&gt;连接建立后浏览器开始发送请求获取文件,此时这里还会出现一种情况就是缓存,建立连接后是走缓存还是直接重新获取,需要看后台的设置,所以这里会有一个关注的问题”浏览器缓存机制”.现在我们当没有缓存,直接获取文件&lt;/li&gt;
+&lt;li&gt;首先获取HTML文件,构建DOM树,这个过程是边下载边解析,并不是等HTML文件全部下载完成,再去解析,这样比较浪费时间,而是下载一点解析一点.&lt;/li&gt;
+&lt;li&gt;解析到头部的时候,又会出现一种问题,css,js放在哪里?不同的位置会造成渲染的不同，此时就会出现另一个需要关注的问题”css,js 位置应该放哪里?为什么”，我们先按照正确的位置来说明(css 放头部,js 放尾部).&lt;/li&gt;
 &lt;li&gt;解析到了 html 头部发现有 css 文件，此时下载 css 文件，css 文件也是一边下载一边解析的，构建的是 CSSOM 树，当 DOM 树和 CSSOM 树全部构建完之后，浏览器会把 DOM 树和 CSSOM 树构建成渲染树。&lt;/li&gt;
-&lt;li&gt;样式计算，上面最后一句 &amp;quot;DOM 树和 CSSOM 树会一起构建成渲染树&amp;quot; 说的有点笼统，其实还有更细一点的操作，但是一般回答到上面应该就可以了，我们现在接上面说一下构造渲染树的时候还做了哪些事情。第一个就是样式计算，DOM 树 和 CSSOM 树有了之后，浏览器开始样式计算，主要是为 DOM 树上的节点找到对应的样式。&lt;/li&gt;
-&lt;li&gt;构建布局树，样式计算完之后就开始构建布局树。主要是为 DOM 树上的节点找到页面上对应位置以及一些 &amp;quot;display:none&amp;quot; 元素的隐藏。&lt;/li&gt;
+&lt;li&gt;样式计算, 上面最后一句”DOM 树和 CSSOM 树会一起构建成渲染树”说的有点笼统，其实还有更细一点的操作，但是一般回答到上面应该就可以了，我们现在接上面说一下构造渲染树的时候还做了哪些事情。第一个就是样式计算，DOM树 和 CSSOM树有了之后，浏览器开始样式计算，主要是为 DOM 树上的节点找到对应的样式。&lt;/li&gt;
+&lt;li&gt;构建布局树，样式计算完之后就开始构建布局树。主要是为 DOM 树上的节点找到页面上对应位置以及一些”display:none”元素的隐藏。&lt;/li&gt;
 &lt;li&gt;构建分层树，布局树完成后浏览器还需要建立分层树，主要是为了满足滚动条，z-index，position 这些复杂的分层操作&lt;/li&gt;
 &lt;li&gt;将分层树图块化，利用光栅找到视图窗口下的对应的位图。主要是因为一个页面可能有几屏那么长，一下渲染出来比较浪费，所以浏览器会找到视图窗口对应的图块，将这部分的图块进行渲染&lt;/li&gt;
-&lt;li&gt;最终渲染进程将整个页面渲染出来，在渲染的过程中会还出现重排和重绘，这也是比较爱问的问题 &amp;quot;重排重绘为什么会影响渲染，如何避免？&amp;quot;&lt;/li&gt;
+&lt;li&gt;最终渲染进程将整个页面渲染出来，在渲染的过程中会还出现重排和重绘，这也是比较爱问的问题”重排重绘为什么会影响渲染，如何避免?”&lt;/li&gt;
 &lt;li&gt;以上过程大概讲解了一下从 url 到页面渲染的整个过程&lt;/li&gt;
 &lt;/ul&gt;
  ]]></description>

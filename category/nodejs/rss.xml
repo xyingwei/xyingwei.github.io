@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>徐爸爸是超人 • Posts by &#34;nodejs&#34; category</title>
+        <link>http://example.com</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Mon, 13 Jul 2020 00:00:00 +0800</pubDate>
+        <lastBuildDate>Mon, 13 Jul 2020 00:00:00 +0800</lastBuildDate>
+        <category>Hexo</category>
+        <category>typora</category>
+        <category>vpn</category>
+        <category>CSS</category>
+        <category>Html CSS</category>
+        <category>markdown</category>
+        <category>vscode</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2020/07/13/fronted/Nodejs/%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%9320220713/</guid>
+            <title>nodejs 连接数据库</title>
+            <link>http://example.com/2020/07/13/fronted/Nodejs/%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%9320220713/</link>
+            <pubDate>Mon, 13 Jul 2020 00:00:00 +0800</pubDate>
+            <description><![CDATA[ &lt;h3 id=&#34;安装mysql中间件&#34;&gt;&lt;a href=&#34;#安装mysql中间件&#34; class=&#34;headerlink&#34; title=&#34;安装mysql中间件&#34;&gt;&lt;/a&gt;安装mysql中间件&lt;/h3&gt;&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;npm i mysql&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;创建连接并导出&#34;&gt;&lt;a href=&#34;#创建连接并导出&#34; class=&#34;headerlink&#34; title=&#34;创建连接并导出&#34;&gt;&lt;/a&gt;创建连接并导出&lt;/h3&gt;&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&amp;#x2F;&amp;#x2F; db&amp;#x2F;index.js&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;const mysql &amp;#x3D; require(&amp;#39;mysql&amp;#39;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;const db &amp;#x3D; mysql.createPool(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    host: &amp;#39;localhost&amp;#39;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    port: &amp;#39;3306&amp;#39;, &amp;#x2F;&amp;#x2F; 端口&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    user: &amp;#39;root&amp;#39;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    password: &amp;#39;system&amp;#39;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    database: &amp;#39;yb_test&amp;#39;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;module.exports &amp;#x3D; db&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;使用页面引入&#34;&gt;&lt;a href=&#34;#使用页面引入&#34; class=&#34;headerlink&#34; title=&#34;使用页面引入&#34;&gt;&lt;/a&gt;使用页面引入&lt;/h3&gt;&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;const db &amp;#x3D; require(&amp;#39;db文件路径&amp;#39;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;const sqlStr &amp;#x3D; &amp;#39;sqlStr&amp;#39;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;db.query(sqlStr,参数,(error,result)&amp;#x3D;&amp;gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    if(error) return console.log(&amp;#39;error&amp;#39;,error)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    console.log(&amp;#39;result&amp;#39;,result)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
+        </item>
+    </channel>
+</rss>

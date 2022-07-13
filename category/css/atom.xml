@@ -3,14 +3,22 @@
     <id>http://example.com</id>
     <title>徐爸爸是超人 • Posts by &#34;css&#34; category</title>
     <link href="http://example.com" />
-    <updated>2021-01-26T16:00:00.000Z</updated>
+    <updated>2022-07-12T16:00:00.000Z</updated>
     <category term="Hexo" />
-    <category term="vscode" />
+    <category term="typora" />
+    <category term="vpn" />
     <category term="CSS" />
     <category term="Html CSS" />
     <category term="markdown" />
-    <category term="typora" />
-    <category term="vpn" />
+    <category term="vscode" />
+    <entry>
+        <id>http://example.com/2022/07/13/fronted/CSS/%E6%96%91%E9%A9%AC%E7%BA%B9/</id>
+        <title>斑马纹</title>
+        <link rel="alternate" href="http://example.com/2022/07/13/fronted/CSS/%E6%96%91%E9%A9%AC%E7%BA%B9/"/>
+        <content type="html">&lt;h2 id=&#34;使用background中repeating-linear-gradient属性&#34;&gt;&lt;a href=&#34;#使用background中repeating-linear-gradient属性&#34; class=&#34;headerlink&#34; title=&#34;使用background中repeating-linear-gradient属性&#34;&gt;&lt;/a&gt;使用background中repeating-linear-gradient属性&lt;/h2&gt;&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&amp;#x2F;&amp;#x2F; 语法&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;background: repeating-linear-gradient(angle | to side-or-corner, color-stop1, color-stop2, ...);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#x2F;&amp;#x2F; 示例&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;background-image: repeating-linear-gradient(45deg, #6672FB 0px, #3343FF 8px, #fff 0px, #fff 15px);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
+        <category term="CSS" />
+        <updated>2022-07-12T16:00:00.000Z</updated>
+    </entry>
     <entry>
         <id>http://example.com/2021/01/27/fronted/CSS/%E6%96%87%E5%AD%97%E6%B8%90%E5%8F%98/</id>
         <title>文字渐变</title>
@@ -19,29 +27,24 @@
         <updated>2021-01-26T16:00:00.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2021/01/14/fronted/CSS/20210114/</id>
-        <title>css——使用全局变量设置主题颜色</title>
-        <link rel="alternate" href="http://example.com/2021/01/14/fronted/CSS/20210114/"/>
-        <content type="html">&lt;h2 id=&#34;变量的声明&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#变量的声明&#34;&gt;#&lt;/a&gt; 变量的声明&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;CSS变量声明是字母前加两个横线（--）
-&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;body&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  　　--Colors:#dfdfdf;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  　　--fS16px:16px;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;使用变量&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#使用变量&#34;&gt;#&lt;/a&gt; 使用变量&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;var 函数用来读取变量  &lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;a&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  color:var(--Colors);     &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/li&gt;
-&lt;li&gt;var () 函数还可以使用第二个参数，表示变量的默认值。如果该变量不存在，就会使用这个默认值.  &lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;color: var(--Colors, #e5e5e5);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-        <updated>2021-01-13T16:00:00.000Z</updated>
-    </entry>
-    <entry>
         <id>http://example.com/2021/01/14/fronted/CSS/%E5%86%85%E5%AE%B9%E6%BB%9A%E5%8A%A8/</id>
         <title>css 中div不用设定高度，自动根据内容出现滚动条</title>
         <link rel="alternate" href="http://example.com/2021/01/14/fronted/CSS/%E5%86%85%E5%AE%B9%E6%BB%9A%E5%8A%A8/"/>
-        <content type="html">&lt;h2 id=&#34;css-中div不用设定高度自动根据内容出现滚动条&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#css-中div不用设定高度自动根据内容出现滚动条&#34;&gt;#&lt;/a&gt; css 中 div 不用设定高度，自动根据内容出现滚动条&lt;/h2&gt;
-&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;.parent&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  position:relative;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  height:100%;&amp;#x2F;&amp;#x2F;高度根据需求自行设定&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;.child&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  position:absolute;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  left:0;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  top:0;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  right:0;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  bottom:0; &amp;#x2F;&amp;#x2F;left,top,right,bottom都为0，充满真个页面&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  overflow-y:auto;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  overflow-x:hidden; &amp;#x2F;&amp;#x2F;设置Y轴出现滚动条，X轴隐藏&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
+        <content type="html">&lt;h2 id=&#34;css-中div不用设定高度，自动根据内容出现滚动条&#34;&gt;&lt;a href=&#34;#css-中div不用设定高度，自动根据内容出现滚动条&#34; class=&#34;headerlink&#34; title=&#34;css 中div不用设定高度，自动根据内容出现滚动条&#34;&gt;&lt;/a&gt;css 中div不用设定高度，自动根据内容出现滚动条&lt;/h2&gt;&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;.parent&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  position:relative;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  height:100%;&amp;#x2F;&amp;#x2F;高度根据需求自行设定&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;.child&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  position:absolute;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  left:0;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  top:0;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  right:0;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  bottom:0; &amp;#x2F;&amp;#x2F;left,top,right,bottom都为0，充满真个页面&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  overflow-y:auto;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  overflow-x:hidden; &amp;#x2F;&amp;#x2F;设置Y轴出现滚动条，X轴隐藏&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
         <category term="CSS" />
+        <updated>2021-01-13T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2021/01/14/fronted/CSS/20210114/</id>
+        <title>css——使用全局变量设置主题颜色</title>
+        <link rel="alternate" href="http://example.com/2021/01/14/fronted/CSS/20210114/"/>
+        <content type="html">&lt;h2 id=&#34;变量的声明&#34;&gt;&lt;a href=&#34;#变量的声明&#34; class=&#34;headerlink&#34; title=&#34;变量的声明&#34;&gt;&lt;/a&gt;变量的声明&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;CSS变量声明是字母前加两个横线（--）
+&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;body&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  　　--Colors:#dfdfdf;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  　　--fS16px:16px;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;使用变量&#34;&gt;&lt;a href=&#34;#使用变量&#34; class=&#34;headerlink&#34; title=&#34;使用变量&#34;&gt;&lt;/a&gt;使用变量&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;var函数用来读取变量  &lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;a&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  color:var(--Colors);     &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;var()函数还可以使用第二个参数，表示变量的默认值。如果该变量不存在，就会使用这个默认值.  &lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;color: var(--Colors, #e5e5e5);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
         <updated>2021-01-13T16:00:00.000Z</updated>
     </entry>
     <entry>
